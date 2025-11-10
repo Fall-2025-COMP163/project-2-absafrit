@@ -374,7 +374,7 @@ if __name__ == "__main__":
     rogue.sneak_attack(target3)
 
     # Test weapon composition
-    print("\n🗡️ Testing Weapon Composition:")
+    print("\n Testing Weapon Composition:")
     sword = Weapon("Iron Sword", 10)
     staff = Weapon("Magic Staff", 15)
     dagger = Weapon("Steel Dagger", 8)
