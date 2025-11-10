@@ -396,7 +396,7 @@ if __name__ == "__main__":
     print("\n Testing complete!")
 
 
-          if self.char2.health > 0:
+        if self.char2.health > 0:
             print(f"\n{self.char2.name} attacks:")
             self.char2.attack(self.char1)
         
