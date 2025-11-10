@@ -396,20 +396,20 @@ if __name__ == "__main__":
     print("\n Testing complete!")
 
 
-        if self.char2.health > 0:
-            print(f"\n{self.char2.name} attacks:")
-            self.char2.attack(self.char1)
+    if self.char2.health > 0:
+        print(f"\n{self.char2.name} attacks:")
+        self.char2.attack(self.char1)
         
-        print(f"\n--- Battle Results ---")
-        self.char1.display_stats()
-        self.char2.display_stats()
+    print(f"\n--- Battle Results ---")
+    self.char1.display_stats()
+    self.char2.display_stats()
         
-        if self.char1.health > self.char2.health:
-            print(f"🏆 {self.char1.name} wins!")
-        elif self.char2.health > self.char1.health:
-            print(f"🏆 {self.char2.name} wins!")
-        else:
-            print("🤝 It's a tie!")
+    if self.char1.health > self.char2.health:
+        print(f"{self.char1.name} wins!")
+    elif self.char2.health > self.char1.health:
+        print(f"{self.char2.name} wins!")
+    else:
+        print("It's a tie!")
 
 # ============================================================================
 # YOUR CLASSES TO IMPLEMENT (6 CLASSES TOTAL)
